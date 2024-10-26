@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+section{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body{
+  background-color: blue;
+}
+section:nth-child(3){
+  background-color: black;
+}
+div{
+width:400px;
+height: 400px;
+background-color: chartreuse;
+display: flex;
+justify-content: center;
+align-items: center;
+}
